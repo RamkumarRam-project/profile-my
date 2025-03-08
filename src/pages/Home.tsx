@@ -7,14 +7,14 @@ export default function Home() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1" data-aos="fade-right">
           <h1 className="text-5xl font-bold mb-6">
-            Hi, I'm <span className="text-blue-600">Ram Kumar</span>
+            Hi, I'm <span className="text-amber-400">Ram Kumar</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             A passionate Frontend Developer crafting beautiful and functional web experiences
           </p>
           <Link
             to="/projects"
-            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-amber-400 text-white rounded-lg hover:bg-amber-700 transition-colors"
           >
             View My Work
             <ArrowRight size={20} className="ml-2" />

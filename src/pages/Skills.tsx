@@ -4,7 +4,8 @@ const skills = [
     items: [
       { name: 'Html', level: 90 },
       { name: 'Css', level: 65 },
-      { name: 'JavaScript', level: 80 },
+      { name: 'Bootstrap', level: 80 },
+      { name: 'JavaScript', level: 70 },
       { name: 'React.js', level: 90 },
     ],
   },
@@ -13,7 +14,7 @@ const skills = [
     items: [
       { name: 'Node.js', level: 85 },
       { name: 'Express.js', level: 75 },
-      { name: 'Mangodb', level: 80 },
+      { name: 'MongoDB', level: 80 },
       { name: 'Postman', level: 70 },
     ],
   },
@@ -42,11 +43,11 @@ export default function Skills() {
                   >
                     <div className="flex justify-between mb-2">
                       <span className="font-semibold">{skill.name}</span>
-                      <span className="text-blue-600">{skill.level}%</span>
+                      <span className="text-amber-400">{skill.level}%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
                       <div
-                        className="bg-blue-600 h-2.5 rounded-full transition-all duration-500"
+                        className="bg-amber-400 h-2.5 rounded-full transition-all duration-500"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>

@@ -44,17 +44,17 @@ export default function Contact() {
               <h3 className="text-xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Mail className="w-5 h-5 text-blue-600 mr-3" />
+                  <Mail className="w-5 h-5 text-amber-600 mr-3" />
                   <span>  ramrk0144@gmail.com</span>
                 </div>
 
                 <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-blue-600 mr-3" />
+                  <Phone className="w-5 h-5 text-amber-600 mr-3" />
                   <span>  7904310801</span>
                 </div>
                 
                 <div className="flex items-center">
-                  <MapPin className="w-5 h-5 text-blue-600 mr-3" />
+                  <MapPin className="w-5 h-5 text-amber-600 mr-3" /> 
                   <span>  Tirunlveli,TamilNadu</span>
                 </div>
               </div>
@@ -120,7 +120,7 @@ export default function Contact() {
           )}
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              className="w-full px-6 py-3 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
               value="Send"
             >
               Send Message

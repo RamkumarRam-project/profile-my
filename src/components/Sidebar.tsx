@@ -34,7 +34,7 @@ export default function Sidebar() {
               className="w-24 h-24 mx-auto rounded-full object-cover mb-4"
             />
             <h2 className="text-xl font-bold">Ram Kumar</h2>
-            <p className="text-gray-600">FullStack Developer</p>
+            <p className="text-gray-600">MernStack Developer</p>
 
 
             
@@ -44,26 +44,19 @@ export default function Sidebar() {
                 href="https://github.com/RamkumarRam-project"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-900"
+                className="text-black-600 hover:text-gray-900"
               >
                 <Github size={20} />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/ram-kumar-1a1a31316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-900"
+                className="text-blue-600 hover:text-gray-900"
               >
                 <Linkedin size={20} />
               </a>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-900"
-              >
-                <Twitter size={20} />
-              </a>
+              
             </div>
           </div>
           </div>
@@ -78,7 +71,7 @@ export default function Sidebar() {
                 key={path}
                 to={path}
                 className={({ isActive }) =>
-                  `flex items-center px-4 py-3 mb-2 rounded-lg transition-colors ${isActive ? 'bg-blue-50 text-blue-600' : 'text-gray-700 hover:bg-gray-100'}`
+                  `flex items-center px-4 py-3 mb-2 rounded-lg transition-colors ${isActive ? 'bg-amber-50 text-amber-400' : 'text-gray-700 hover:bg-amber-100'}`
                 }
                 onClick={() => setIsOpen(false)}
               >
